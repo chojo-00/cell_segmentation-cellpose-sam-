@@ -1,0 +1,9 @@
+python -m cellpose ^
+--image_path "C:\Users\muyer\Desktop\cellpose\test\im_20230921114633_037_568088337.png" ^
+--use_gpu --model cpsam --diameter 50 --chan 0 --chan2 0 ^
+--save_png --verbose ^
+--savedir "C:\Users\muyer\Desktop\cellpose\result\im_20230921114633_037_568088337"
+
+------------------------------------------------------------------------------------------------\\\\\\\\\\
+
+python run)cellpose_and_organize.py 
